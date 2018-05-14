@@ -5,6 +5,9 @@ date:   2018-05-13 10:00:00
 author: 강진광
 categories: [certification]
 comments: true
+tags:
+  - algorithm
+  - certification
 ---
 
 # 알고리즘 - 순서도 #

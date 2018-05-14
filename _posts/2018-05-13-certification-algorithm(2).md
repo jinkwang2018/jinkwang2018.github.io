@@ -5,6 +5,9 @@ date:   2018-05-14 10:00:00
 author: 강진광
 categories: [certification]
 comments: true
+tags:
+  - algorithm
+  - certification
 ---
 
 ## 7. 소인수 분해

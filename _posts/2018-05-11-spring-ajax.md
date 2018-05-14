@@ -5,6 +5,9 @@ date:   2018-05-11 14:32:00
 author: 강진광
 categories: [spring]
 comments: true
+tags:
+  - spring
+  - ajax
 ---
 
 ## 비동기를 사용하려면 ##

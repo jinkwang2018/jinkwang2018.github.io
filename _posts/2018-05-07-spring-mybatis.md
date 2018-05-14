@@ -5,6 +5,9 @@ date:   2018-05-07 12:00:00
 author: 강진광
 categories: [spring]
 comments: true
+tags:
+  - spring
+  - mybatis
 ---
 ## mybatis 사용하기 ##
 
