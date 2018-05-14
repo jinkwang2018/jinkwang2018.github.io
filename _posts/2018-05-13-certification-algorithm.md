@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "algorithm(1)"
-date:   2018-05-13
+date:   2018-05-13 10:00:00
 author: 강진광
 categories: [certification]
 comments: true
