@@ -104,7 +104,7 @@ error가 JsonView를 쓰는 것이 적게 난다.
 
 위의 것은 controller에 작성하는 것이다.
 <br>
-~~~java
+~~~javascript
 $(function(){
 	$.ajax({
 		type: "post",
