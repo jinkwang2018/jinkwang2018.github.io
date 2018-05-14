@@ -3,7 +3,7 @@ layout: post
 title:  "mybatis"
 date:   2018-05-07 12:00:00
 author: 강진광
-categories: [springframework]
+categories: [spring]
 comments: true
 ---
 ## mybatis 사용하기 ##

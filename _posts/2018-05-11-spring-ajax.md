@@ -3,7 +3,7 @@ layout: post
 title:  "ajax사용하기"
 date:   2018-05-11 14:32:00
 author: 강진광
-categories: [springframework]
+categories: [spring]
 comments: true
 ---
 
