@@ -28,7 +28,7 @@ plugins:
 
 # Custom vars
 disqus:
-  shortname: jins
+  shortname: my-disqus-jins
 version:
 sidebar_home_link:  true
 # sidebar_blog_link:  '/blog'   # By default, your home page is your blog
