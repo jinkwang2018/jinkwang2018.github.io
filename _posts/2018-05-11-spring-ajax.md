@@ -68,12 +68,12 @@ private View jsonview 타입으로 리턴 Model, ModelMap, ModelAndView에<br>
 데이터를 JSON객체로 담아 놓으면 나머지는 자동으로 처리된다.<br>
 MappingJackson2JsonView가  Model, ModelMap, ModelAndView에 들어간 data를 JSON으로 자동 변환 해준다.<br>
 받는 곳에서는 json data로 받는다.
-<br>
+
 # @ResponseBody 방식 #
-<br>
+
 ~~~xml
 <?xml version="1.0" encoding="UTF-8"?>
-<beans "xmlns:mvc="http://www.springframework.org/schema/mvc"
+<beans xmlns:mvc="http://www.springframework.org/schema/mvc"
 xsi:schemaLocation="http://www.springframework.org/schema/mvc
 http://www.springframework.org/schema/mvc/spring-mvc.xsd">
 <mvc:annotation-driven /> <!-- @ResponseBody  messageConverter 동작-->
@@ -105,43 +105,47 @@ error가 JsonView를 쓰는 것이 적게 난다.
 위의 것은 controller에 작성하는 것이다.
 <br>
 ~~~java
-$.ajax({
-	type: "post",
-	url:  "response.kosta",
-  	cache: false,				
-	data:'firstName=' + $("#firstName").val() + "&lastName=" + $("#lastName").val() + "&email=" + $("#email").val(),
-   	success:function(data){ //callback  
-   	  
-   	$("#menuView").empty();
-   	var resv="";  
-   	$("#menuView").append("First Name:- " + data.firstname +"</br>Last Name:- " + data.lastname  + "</br>Email:- " + data.email + "<br>");
+$(function(){
+	$.ajax({
+		type: "post",
+		url:  "response.kosta",
+		cache: false,				
+		data:'firstName=' + $("#firstName").val() + "&lastName=" + $("#lastName").val() + "&email=" + $("#email").val(),
+		success:function(data){ //callback  
+		
+		$("#menuView").empty();
+		var resv="";  
+		$("#menuView").append("First Name:- " + data.firstname +"</br>Last Name:- " + data.lastname  + "</br>Email:- " + data.email + "<br>");
 
-   	},
+		},
 
-   	error: function(){						
-   		alert('Error while request..'	);
-   	}
+		error: function(){						
+			alert('Error while request..'	);
+		}
+	});
+
+	var _param = {firstname:$("#firstName").val(), lastname:$("#lastName").val() , email:$("#email").val()};
+	_data = JSON.stringify(_param); //jsonString으로 변환
+	alert(_data);
+
+	$.ajax({
+		type : 'POST',
+		url : "response2.kosta",
+		cache: false,
+		dataType: "json",
+		data: _data,  
+		processData: false,
+		contentType: "application/json; charset=utf-8",
+		success : function(data, status){
+			alert(data.email);
+		},
+		error: function(request, status, error){
+			//alert("loading error:" + request.status);
+		}
+	});
+
 });
 
- var _param = {firstname:$("#firstName").val(), lastname:$("#lastName").val() , email:$("#email").val()};
-_data = JSON.stringify(_param); //jsonString으로 변환
-alert(_data);
-
-$.ajax({
-	  type : 'POST',
-	  url : "response2.kosta",
-	  cache: false,
-   	  dataType: "json",
-   	  data: _data,  
-   	  processData: false,
-   	  contentType: "application/json; charset=utf-8",
-   	  success : function(data, status){
-   	     alert(data.email);
-   	  },
-   	  error: function(request, status, error){
-   	      //alert("loading error:" + request.status);
-	  }
-});
 ~~~
 <br>
 받는 곳에서는 이렇게 받는다.
