@@ -8,6 +8,7 @@ comments: true
 tags:
   - pl_sql
 ---
+
 # PL/SQL(1)
 
 >프로그램이 가미된 sql이다.
@@ -17,14 +18,16 @@ tags:
 #### -오라클 자체에 내장되어 있는Procedure Language입니다
 #### -DECLARE문을 이용하여 정의되며, 선언문의 사용은 선택 사항입니다. 
 #### -PL/SQL 문은 블록 구조로 되어 있고PL/SQL 자신이 컴파일 엔진을 가지고 있습니다.
+<br>
 
-## 예시
 #### 1.pl-sql 블럭 단위 실행
 ~~~sql
 BEGIN
   DBMS_OUTPUT.PUT_LINE('HELLO WORLD');
 END;
 ~~~
+
+<br>
 
 #### 2.pl-sql
 ##### -선언부(변수) 
@@ -43,6 +46,8 @@ BEGIN
 END;
 ~~~
 > begin과 end사이의 영역에서 declare한 변수들을 사용할 수 있다.
+
+<br>
 
 #### 3.변수 선언 방법 (타입)
 ##### -DECLARE
@@ -69,6 +74,8 @@ END;
 >&는 java에서의 scanner같은 기능을 한다. <br>
 >커서를 사용하기 전까지는 row갯수가 1개인 것만 적용이 가능하다.
 
+<br>
+
 #### 4.변수 제어하기(타입)
 ##### -1.1 타입 : v_empno number(10)
 ##### -1.2 타입 : v_empno emp.empno%TYPE  (emp 테이블에 있는 empno 컬럼의 타입 사용)
@@ -86,6 +93,9 @@ BEGIN
     DBMS_OUTPUT.PUT_LINE('result : ' || result);
 END;
 ~~~
+
+<br>
+
 #### 5.sequence
 ~~~sql
 create sequence empno_seq
@@ -99,6 +109,8 @@ nocache;
 >cycle : maxvalue까지 찍고 다시 start값으로 돌아간다.<br>
 >nocycle : maxvalue까지 찍고 끝난다. <br>
 >cache : 성능을 위해서 처음에 만들어 놓겠다.
+
+<br>
 
 #### 6.if문
 ~~~sql
@@ -144,6 +156,8 @@ BEGIN
  END;
  ~~~
 
+<br>
+
 #### 7.case문
 ~~~sql
 DECLARE
@@ -174,6 +188,8 @@ BEGIN
     DBMS_OUTPUT.PUT_LINE('당신의 부서명:' || v_name);            
 END;
 ~~~
+
+<br>
 
 #### 8.반복문 (roop,while,for)
 ##### roop
@@ -226,6 +242,8 @@ BEGIN
   DBMS_OUTPUT.PUT_LINE('1~100 총합 : ' || total);
 END;
 ~~~
+
+<br>
 
 #### 9.continue
 ##### -11g 이전 (continue (x))
