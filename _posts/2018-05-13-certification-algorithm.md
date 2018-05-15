@@ -31,3 +31,5 @@ tags:
 ## 6. 최대공약수,최소공배수
 ![6.png](https://drive.google.com/uc?id=1v5DK2ANJmjy0YlTbcA44RQuBIUIQeJgp "Medium example image")
 ![6-1.png](https://drive.google.com/uc?id=1qnvDchBmJi1Urx0Hlkx4mGCGiQ46W0Vb "Medium example image")
+
+###### 출처 : 기사퍼스트
