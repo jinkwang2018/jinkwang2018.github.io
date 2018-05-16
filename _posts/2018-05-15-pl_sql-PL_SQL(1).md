@@ -9,7 +9,7 @@ tags:
   - pl_sql
 ---
 
-# PL/SQL(1)
+
 
 >프로그램이 가미된 sql이다.
 
