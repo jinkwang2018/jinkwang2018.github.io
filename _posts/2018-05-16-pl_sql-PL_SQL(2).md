@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "PL/SQL(2)"
-date:   2018-05-15 09:05:00
+date:   2018-05-16 09:05:00
 author: 강진광
 categories: [pl_sql]
 comments: true
@@ -25,14 +25,15 @@ tags:
 -- 10   홍길동  정규직   120    null   null     null
 -- 11   김유신  시간직   null   10      100     null
 -- 12   이순신  일용일   null   null    120     10
-
+~~~
+<br>
 최종 출력 / 판단의 기준이 : 직종이다. 
 홍길동은 월급이 급여 총액이 되지만
 김유신은 시간 * 시간급을 가져와야 급여 총액이된다.
 이순신은 시간급 + 식대가 급여 총액이 된다. 
 
 select 해서 메모리에 올린뒤 cursor를 가져가서 직종을 보고 sql을 따로 적용 시킨다.
-~~~
+
 
 ## 예시
 ~~~sql
@@ -213,7 +214,7 @@ exec usp_getemplist(7902);
 
 ### JDBC로 사용하기
 
-#### 1. SELECT 하기
+#### 1) SELECT 하기
 DB에서 실행하는 sql문이다.
 
 ~~~sql
@@ -269,7 +270,7 @@ public class Ex08_Oracle_Procedure_Select {
 ~~~
 
 
-#### 2. DML sql
+#### 2) DML sql
 DB에서 실행하는 sql문이다.
 ~~~sql
  CREATE OR REPLACE PROCEDURE usp_insert_emp
@@ -331,12 +332,3 @@ public class Ex09_Oracle_Procedure_DML {
 
 }
 ~~~
-
-
-<br>
-
-#### 3.function
-
-<br>
-
-#### 4.trigger
