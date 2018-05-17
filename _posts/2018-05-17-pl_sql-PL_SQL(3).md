@@ -8,7 +8,10 @@ comments: true
 tags:
   - pl_sql
 ---
+<br>
 ## 3.function 사용자 정의 함수
+<br>
+
 ##### to_char() , sum() 오라클에서 제공
 ##### 사용자가 직접 필요한 함수를 만들어 사용가능
 ##### 사용방법은 다른 함수사용법과 동일
@@ -79,7 +82,8 @@ select max(sal) , f_max_sal(30) from emp;
 
 Syntax
 CREATE [OR REPLACE] TRIGGER trigger_name
-{BEFORE | AFTER} triggering_event [OF column1, . . .] ON table_name
+--before 대신 after사용할 수 있다.
+BEFORE triggering_event [OF column1, . . .] ON table_name
 [FOR EACH ROW [WHEN trigger_condition]
 trigger_body;
 ~~~
@@ -122,15 +126,11 @@ select * from user_triggers where table_name='TRI_EMP';
 #### DROP TRIGGER 
 ##### 명령어로 트리거를 삭제할 수 있고 TRIGGER 를 잠시 disable 할 수 있다.
 ~~~sql
-drop trigger tri_01; --트리거 이름
-~~~
+drop trigger tri_01; --delete
 
-DROP TRIGGER trigger_name;
-ALTER TRIGGER trigger_name {DISABLE | ENABLE};
-TRIGGER 와 DATA DICTIONARY
-TRIGGER 가 생성될 때 소스 코드는 데이터 사전 VIEW 인 user_triggers 에 저장된다. 이
-VIEW 는 TRIGGER_BODY, WHERE 절, 트리거링 테이블, TRIGGER 타입을 포함 한다.
- 
+ALTER TRIGGER trigger_name DISABLE; --disable
+ALTER TRIGGER trigger_name ENABLE; --enable
+~~~
 
 <br>
 
