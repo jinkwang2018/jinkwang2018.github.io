@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "java-Array"
+title:  "JAVA-Array"
 date:   2018-02-01 12:00:00
 author: 강진광
 categories: [JAVA]
@@ -74,7 +74,7 @@ public class Ex02_Lotto_Main_Teacher {
 }
 ~~~
 
-### Today Point(Array (정적배열) >> Collection((동적배열)java에서 가장 중요
-#### 개선된 for문
-#### C#: for(Type변수명 in 배열 or 컬렉션) { 출력구문 } => JavaScript와 동일
-#### JAVA: for(Type변수명 : 배열 or 컬렉션) { 출력구문 }
+#### Today Point(Array (정적배열) >> Collection((동적배열)java에서 가장 중요
+##### 개선된 for문
+##### C#: for(Type변수명 in 배열 or 컬렉션) { 출력구문 } => JavaScript와 동일
+##### JAVA: for(Type변수명 : 배열 or 컬렉션) { 출력구문 }
