@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Array"
-date:   2018-01-31 12:00:00
+title:  "java-Array"
+date:   2018-02-01 12:00:00
 author: 강진광
 categories: [JAVA]
 comments: true
@@ -18,13 +18,14 @@ tags:
 ##### 배열의 개수(length)는 마지막 첨자(index)보다 1이 항상 크다
 ##### 배열은 타입의 초기값을 가진다.	
 > Array와 궁합이 제일 좋은 제어문은?  (for)
+
 ~~~java
-point (암기)
-배열을 만드는 3가지 방법
+point //(암기)
+//배열을 만드는 3가지 방법
 int[] arr = new int[5]; 
-기본 (방의 개수, 기본값)
-int[] arr2 = new int[]{100, 200, 300}; 3개의 값
-int[] arr3 = {11, 12, 13, 14, 15}; 컴파일러가 내부적으로 new 사용
+//기본 (방의 개수, 기본값)
+int[] arr2 = new int[]{100, 200, 300}; //3개의 값
+int[] arr3 = {11, 12, 13, 14, 15}; //컴파일러가 내부적으로 new 사용
 JavaScript: var cars = ["Saab", "Volvo", "BMW"];
 ~~~
 ## example quiz
@@ -68,7 +69,7 @@ public class Ex02_Lotto_Main_Teacher {
 }
 ~~~
 
-## Today Point(Array (정적배열) >> Collection((동적배열)java에서 가장 중요
-### 개선된 for문
-### C#: for(Type변수명 in 배열 or 컬렉션) { 출력구문 } => JavaScript와 동일
-### JAVA: for(Type변수명 : 배열 or 컬렉션) { 출력구문 }
+### Today Point(Array (정적배열) >> Collection((동적배열)java에서 가장 중요
+#### 개선된 for문
+#### C#: for(Type변수명 in 배열 or 컬렉션) { 출력구문 } => JavaScript와 동일
+#### JAVA: for(Type변수명 : 배열 or 컬렉션) { 출력구문 }
