@@ -28,13 +28,18 @@ int[] arr2 = new int[]{100, 200, 300}; //3개의 값
 int[] arr3 = {11, 12, 13, 14, 15}; //컴파일러가 내부적으로 new 사용
 JavaScript: var cars = ["Saab", "Volvo", "BMW"];
 ~~~
+<br>
+
 ## example quiz
+<br>
+
 ~~~java
+/*
  *1. 1~45까지의 난수를 발생시켜 6개의 배열에 담으세요
  *2. 배열에 담긴 6개의 배열값은 중복값이 나오면 안되요 
  *3. 배열에 있는 6개의 값은 낮은 순으로 정렬 시키세요 
  *4. 위 결과를 담고 있는 배열을 출력하세요 
- */
+*/
 public class Ex02_Lotto_Main_Teacher {
 
 	public static void main(String[] args) {
