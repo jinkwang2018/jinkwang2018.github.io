@@ -3,7 +3,7 @@ layout: post
 title:  "NodeJS"
 date:   2018-05-23 09:05:00
 author: 강진광
-categories: [javascript]
+categories: [JAVASCRIPT]
 comments: true
 tags:
   - javascript
