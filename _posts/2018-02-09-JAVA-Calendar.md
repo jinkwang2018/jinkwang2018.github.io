@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "JAVA-Calendar"
-date:   2018-02-03 12:00:00
+date:   2018-02-09 12:00:00
 author: 강진광
 categories: [JAVA]
 comments: true
@@ -27,11 +27,11 @@ tags:
    class MyApp{
      static void main(){
       Calendar cal = new GregorianCalendar();
-      다른 종류의 역법의 사용하는 국가에서 실행하면 변경......    }  }
+      //다른 종류의 역법의 사용하는 국가에서 실행하면 변경......    }  }
    class MyApp{
      static void main(){
       Calendar cal = new getInstance();
-        다른 종류의 역법의 사용하는 국가에서 실행하면 변경......   }  }
+      //다른 종류의 역법의 사용하는 국가에서 실행하면 변경......   }  }
 	~~~
 
 # data type
@@ -46,7 +46,7 @@ tags:
 #### ex)
 ~~~java
 	Integer.parseInt(s)
-	ArrayList<Integer> li = new ArrayList<>(); >> parameter형태
+	ArrayList<Integer> li = new ArrayList<>(); //>> parameter형태
 	
 	System.out.println(Integer.MIN_VALUE);
 	System.out.println(Integer.MAX_VALUE);
