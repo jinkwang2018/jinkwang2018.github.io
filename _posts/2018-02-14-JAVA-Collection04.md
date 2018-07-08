@@ -9,19 +9,16 @@ tags:
   - Java
   - Collection
   - Iterater
+  - ListIterator
+  - hasNext
+  - Next
 ---
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.ListIterator;
-
-//Collection Framework
-//나열된 자원에 대해 순차적으로 접근해서 값을 리턴하는 표준 정의
-//Iterator 인터페이스
-//hasNext(), Next() => 자원을 ArrayList 구현하고 있다
-//Iterator: 순방향 데이터 read하는 표준
-//ListIterator: 양방향 데이터 read하는 표준 (순방향으로 읽은 후, 역방향으로 읽음)
-
-public class Ex09_Collection_Iterator {
+# [Iterater]
+### 나열된 자원에 대해 순차적으로 접근해서 값을 리턴하는 표준 정의
+### hasNext(), Next() => 자원을 ArrayList 구현하고 있다
+### Iterator: 순방향 데이터 read하는 표준
+### ListIterator: 양방향 데이터 read하는 표준 (순방향으로 읽은 후, 역방향으로 읽음)
+~~~java
 	public static void main(String[] args) {
 		ArrayList list = new ArrayList();
 		list.add(100);
@@ -37,7 +34,8 @@ public class Ex09_Collection_Iterator {
 		//List extends Collection
 		//ArrayList implements List
 		//ArrayList는 iterator(){} 추상 메서드 강제 구현
-		//부모 타입인 Iterator 로 접근 Override된 ArrayList의 iterator 함수 호출
+		//부모 타입인 Iterator 로 접근 Override된
+		//ArrayList의 iterator 함수 호출
 		
 		Iterator it = list.iterator();
 		while(it.hasNext()) {
@@ -72,3 +70,4 @@ public class Ex09_Collection_Iterator {
 		}
 	}
 }
+~~~

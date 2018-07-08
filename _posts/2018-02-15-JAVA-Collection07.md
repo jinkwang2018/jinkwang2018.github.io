@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "JAVA-Collection-Map"
+title:  "JAVA-Collection-Example"
 date:   2018-02-15 12:00:00
 author: 강진광
 categories: [JAVA]
@@ -10,25 +10,18 @@ tags:
   - Collection
   - Map
 ---
-import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Map;
+# EX) 시나리오
+#### 은행은 계좌를 관리한다.
+#### 은행은 계좌를 등록한다.
+#### 은행은 계좌번호로 계좌를 찾을 수 있다.
+#### 은행은 계좌의 소유자명으로 계좌를 찾을 수 있다.
+#### 은행은 모든 계좌의 목록을 볼 수 있다.
+#### 계좌는 소유자명, 계좌번호, 잔고로 구성된다.
+#### 계좌는 입금,출금 기능과 잔고확인 기능이 있다.
+#### 계좌에서 잔액의 변화가 있을 때마다 입출금 명세에 기록된다.
+#### 입출금 명세는 거래일자, 거래시간, 입금/출금, 금액, 잔액으로 구성된다.
 
-/*
-시나리오
-은행은 계좌를 관리한다.
-은행은 계좌를 등록한다.
-은행은 계좌번호로 계좌를 찾을 수 있다.
-은행은 계좌의 소유자명으로 계좌를 찾을 수 있다.
-은행은 모든 계좌의 목록을 볼 수 있다.
-계좌는 소유자명, 계좌번호, 잔고로 구성된다.
-계좌는 입금,출금 기능과 잔고확인 기능이 있다.
-계좌에서 잔액의 변화가 있을 때마다 입출금 명세에 기록된다.
-입출금 명세는 거래일자, 거래시간, 입금/출금, 금액, 잔액으로 구성된다.
- */
+~~~java
 class Bank {
 	private Map<Integer, Account> accounts;
 	private int totalAccount;
@@ -195,3 +188,4 @@ public class P03_Bank_Class_Diagram {
 		System.out.println(bank.getAccount("100").toString());
 	}
 }
+~~~
