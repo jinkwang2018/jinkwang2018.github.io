@@ -6,9 +6,9 @@ author: 강진광
 categories: [JAVA]
 comments: true
 tags:
-  - java
+  - Java
   - Collection
-  - map
+  - Map
 ---
 import java.util.Collection;
 import java.util.HashMap;

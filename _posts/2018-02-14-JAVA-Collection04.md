@@ -6,9 +6,9 @@ author: 강진광
 categories: [JAVA]
 comments: true
 tags:
-  - java
+  - Java
   - Collection
-  - iterater
+  - Iterater
 ---
 import java.util.ArrayList;
 import java.util.Iterator;
