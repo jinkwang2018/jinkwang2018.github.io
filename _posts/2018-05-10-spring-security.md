@@ -6,8 +6,8 @@ author: 강진광
 categories: [spring]
 comments: true
 tags:
-  - spring
-  - security
+  - Spring
+  - Security
 ---
 ## security 사용하기 ##
 

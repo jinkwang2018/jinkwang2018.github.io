@@ -6,7 +6,7 @@ author: 강진광
 categories: [android]
 comments: true
 tags:
-  - android
+  - Android
 ---
 ## 중요한 것
 1.activity에 대한 구조 layout종류들

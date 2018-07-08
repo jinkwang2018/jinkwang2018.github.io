@@ -6,7 +6,7 @@ author: 강진광
 categories: [JAVASCRIPT]
 comments: true
 tags:
-  - javascript
+  - JavaScript
   - NodeJS
 ---
 

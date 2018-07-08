@@ -6,8 +6,8 @@ author: 강진광
 categories: [certification]
 comments: true
 tags:
-  - algorithm
-  - certification
+  - Algorithm
+  - Certification
 ---
 
 # 알고리즘 - 순서도 #

@@ -6,12 +6,12 @@ author: 강진광
 categories: [JAVA]
 comments: true
 tags:
-  - java
-  - exception
-  - error
-  - string
-  - wrapper
-  - innerclass
+  - Java
+  - Exception
+  - Error
+  - String
+  - Wrapper
+  - Innerclass
 ---
 # Exception 처리하기
 ##### 1. 에러(Error): 네트워크 장애, 메모리, 하드웨어

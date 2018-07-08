@@ -6,8 +6,8 @@ author: 강진광
 categories: [spring]
 comments: true
 tags:
-  - spring
-  - mybatis
+  - Spring
+  - Mybatis
 ---
 ## mybatis 사용하기 ##
 

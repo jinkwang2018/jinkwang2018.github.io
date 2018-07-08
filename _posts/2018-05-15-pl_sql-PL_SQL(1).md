@@ -6,7 +6,7 @@ author: 강진광
 categories: [pl_sql]
 comments: true
 tags:
-  - pl_sql
+  - Pl_Sql
 ---
 
 

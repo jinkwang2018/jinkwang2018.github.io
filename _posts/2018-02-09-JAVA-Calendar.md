@@ -6,11 +6,11 @@ author: 강진광
 categories: [JAVA]
 comments: true
 tags:
-  - java
-  - innerclass
-  - calendar
-  - innerclass
-  - data type
+  - Java
+  - Innerclass
+  - Calendar
+  - Innerclass
+  - Data Type
 ---
 # Calendar
 

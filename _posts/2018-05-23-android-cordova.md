@@ -6,8 +6,8 @@ author: 강진광
 categories: [android]
 comments: true
 tags:
-  - android
-  - cordova
+  - Android
+  - Cordova
 ---
 
 ## Cordova

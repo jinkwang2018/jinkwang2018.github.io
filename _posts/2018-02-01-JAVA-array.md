@@ -6,7 +6,7 @@ author: 강진광
 categories: [JAVA]
 comments: true
 tags:
-  - java
+  - Java
   - Array
 ---
 # Array

@@ -6,8 +6,8 @@ author: 강진광
 categories: [spring]
 comments: true
 tags:
-  - spring
-  - ajax
+  - Spring
+  - Ajax
 ---
 
 ## 비동기를 사용하려면 ##
