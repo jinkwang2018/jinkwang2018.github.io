@@ -3,7 +3,7 @@ layout: post
 title:  "JAVA-UbuntuMaven"
 date:   2018-02-17 12:00:00
 author: 강진광
-categories: [AWS]
+categories: [Aws]
 comments: true
 tags:
   - AWS
@@ -43,6 +43,4 @@ tags:
 > sudo service tomcat8 restart<br>
 > sudo service apache2 restart
 ### 를 한뒤에 http://서버 IP주소:8090/manager 로 접속 후 관리자 계정명/비밀번호를 작성한다. manager page가 나와야 한다.
-
-# [S3]
 
