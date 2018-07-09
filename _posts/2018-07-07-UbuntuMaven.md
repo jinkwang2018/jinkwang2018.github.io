@@ -26,6 +26,7 @@ tags:
 ### tomcat-user.xml 파일 열기
 > sudo nano tomcat-user.xml
 ### 안에 
+
 ~~~xml
 <!--</tomcat-users> 위에 설정 내용을 입력한다.-->
  <role rolename="manager-script"/>
@@ -33,8 +34,8 @@ tags:
  <role rolename="manager-jmx"/>
  <role rolename="manager-status"/>
  <user username="관리자 계정명" password="비밀번호" roles="manager-gui,manager-script,manager-status,manager-jmx"/>
-
 ~~~
+
 ### 입력한다. 다음에
 >sudo vi /etc/tomcat8/server.xml
 ### 파일을 연뒤에 port를 8090으로 변경시킨다.
