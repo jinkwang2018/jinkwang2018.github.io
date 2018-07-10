@@ -10,7 +10,8 @@ tags:
   - Network
   - Chat
 ---
-# [Chat]
+# [Chat Client]
+~~~java
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
@@ -82,8 +83,11 @@ public class Ex04_TCP_Chat_Client {
 		}
 	}
 }
+~~~
 
-server
+# [Chat Server]
+
+~~~java
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
@@ -213,7 +217,7 @@ class ServerReceive extends Thread {
 		}
 	}
 }
-
+~~~
 
 
 	

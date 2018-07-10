@@ -10,7 +10,10 @@ tags:
   - Network
   - EchoChat
 ---
-# [EchoChat]
+
+# [EchoChat Client]
+
+~~~java
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
@@ -51,8 +54,11 @@ public class Ex03_TCP_Echo_Client {
 		socket.close();
 	}
 }
-server
+~~~
 
+# [EchoChat Server]
+
+~~~java
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
@@ -104,3 +110,4 @@ public class Ex03_TCP_Echo_Server {
 		serversocket.close();
 	}
 }
+~~~

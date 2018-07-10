@@ -10,7 +10,8 @@ tags:
   - Network
   - MultiChat
 ---
-# [MultiChat]
+# [MultiChat Client]
+~~~java
 import java.awt.Color;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -111,8 +112,11 @@ public class Ex05_TCP_Multi_Chatt_Client extends JFrame implements ActionListene
 		Ex05_TCP_Multi_Chatt_Client client = new Ex05_TCP_Multi_Chatt_Client();
 	}
 }
+~~~
 
-server
+# [MultiChat Server]
+
+~~~java
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.net.ServerSocket;
@@ -296,3 +300,4 @@ public class Ex05_TCP_Multi_Chatt_Server {
 	}
 
 }
+~~~

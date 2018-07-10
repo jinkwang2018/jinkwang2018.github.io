@@ -10,7 +10,8 @@ tags:
   - Network
   - TCP
 ---
-# [TCP]
+# [TCP client]
+~~~java
 import java.io.DataInputStream;
 import java.io.IOException;
 import java.io.InputStream;
@@ -37,7 +38,11 @@ public class Ex02_TCP_Client {
 		socket.close();
 	}
 }
-server
+~~~
+
+# [TCP server]
+
+~~~java
 import java.io.DataOutputStream;
 import java.io.IOException;
 import java.io.OutputStream;
@@ -74,3 +79,4 @@ public class Ex02_TCP_Server {
 		serversocket.close();
 	}
 }
+~~~
