@@ -1,6 +1,6 @@
 ---
 layout: category
-title: ORACLE
+title: Database
 ---
 
-ORACLE
+Database
