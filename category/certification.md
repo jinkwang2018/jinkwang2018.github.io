@@ -1,6 +1,6 @@
 ---
 layout: category
-title: certification
+title: CERTIFICATION
 ---
 
-certification
+CERTIFICATION

@@ -3,7 +3,7 @@ layout: post
 title:  "algorithm(2)"
 date:   2018-05-14 10:00:00
 author: 강진광
-categories: [certification]
+categories: [CERTIFICATION]
 comments: true
 tags:
   - Algorithm

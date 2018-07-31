@@ -1,6 +1,6 @@
 ---
 layout: category
-title: android
+title: ANDROID
 ---
 
-android
+ANDROID

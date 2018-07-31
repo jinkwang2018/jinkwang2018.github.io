@@ -1,6 +1,6 @@
 ---
 layout: category
-title: pl_sql
+title: PL_SQL
 ---
 
-pl_sql
+PL_SQL

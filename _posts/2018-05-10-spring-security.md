@@ -3,7 +3,7 @@ layout: post
 title:  "security"
 date:   2018-05-10 18:21:00
 author: 강진광
-categories: [spring]
+categories: [SPRING]
 comments: true
 tags:
   - Spring

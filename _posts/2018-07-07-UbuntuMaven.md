@@ -3,7 +3,7 @@ layout: post
 title:  "JAVA-UbuntuMaven"
 date:   2018-07-07 12:00:00
 author: 강진광
-categories: [Aws]
+categories: [AWS]
 comments: true
 tags:
   - AWS

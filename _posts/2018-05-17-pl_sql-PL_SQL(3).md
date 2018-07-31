@@ -3,7 +3,7 @@ layout: post
 title:  "PL/SQL(3)"
 date:   2018-05-17 09:05:00
 author: 강진광
-categories: [pl_sql]
+categories: [PL_SQL]
 comments: true
 tags:
   - Pl_Sql

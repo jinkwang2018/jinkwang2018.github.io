@@ -3,7 +3,7 @@ layout: post
 title:  "app"
 date:   2018-05-25 09:05:00
 author: 강진광
-categories: [android]
+categories: [ANDROID]
 comments: true
 tags:
   - Android

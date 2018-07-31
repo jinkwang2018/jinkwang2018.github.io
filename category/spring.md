@@ -1,6 +1,6 @@
 ---
 layout: category
-title: spring
+title: SPRING
 ---
 
-spring
+SPRING
