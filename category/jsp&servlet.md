@@ -1,6 +1,6 @@
 ---
 layout: category
-title: JSP&Servlet
+title: JSP&SERVLET
 ---
 
-JSP&Servlet
+JSP&SERVLET
