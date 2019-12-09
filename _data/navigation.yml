@@ -1,4 +1,7 @@
 header:
+  - titles: Docs
+    url: /docs/en/quizk-start
+      
   - titles:
       # @start locale config
       en      : &EN       Archive
@@ -13,7 +16,7 @@ header:
       zh-Hant : &ZH_HANT  歸檔
       zh-TW   : *ZH_HANT
       zh-HK   : *ZH_HANT
-      ko      : &KO       아카이브
+      ko      : &KO       Archive
       ko-KR   : *KO
       fr      : &FR       Archives
       fr-BE   : *FR
@@ -38,7 +41,7 @@ header:
       zh-Hant : &ZH_HANT  關於
       zh-TW   : *ZH_HANT
       zh-HK   : *ZH_HANT
-      ko      : &KO       소개
+      ko      : &KO       About
       ko-KR   : *KO
       fr      : &KO       À propos
       fr-BE   : *FR
@@ -48,3 +51,18 @@ header:
       fr-LU   : *FR
       # @end locale config
     url: /about.html
+
+# docs-en:
+#   - title:      Languages
+#     children:
+#       - title:  JAVA
+#         url:    /docs/en/quick-start
+#       - title:  JavaScript
+#         url:    /docs/en/structure
+#       ...
+#   - title:      Customization
+#     children:
+#       - title:  Configuration
+#         url:    /docs/en/configuration
+#       - title:  Navigation
+#         url:    /docs/en/navigation
