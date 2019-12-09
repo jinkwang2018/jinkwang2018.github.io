@@ -1,10 +1,22 @@
----
-layout: default
+--- 
+layout: default 
 ---
 
-<header>
-  <h1 class="page-title"><label for="search-bar">{{ page.title }}</label></h1>
-</header>
-<div class="content">
-  {% include search-form.html %}
+<div class="row">
+        <div class="col-lg-12">
+    
+    <div id="search-searchbar"></div>
+        </div>
 </div>
+<ul>
+<div class="row">
+        <div class="col-lg-12">
+    
+        <div id="search-hits"></div>
+        </div>
+</ul>
+
+
+ {%- include algolia_search.html -%}
+
+ 

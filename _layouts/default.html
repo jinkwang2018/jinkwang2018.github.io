@@ -1,16 +1,28 @@
+---
+layout: compress
+---
+
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="{{ page.lang | default: site.lang | default: " en " }}">
 
-  {% include head.html %}
+{%- include head.html -%}
 
-  <body class="{{ page.layout }}{% if page.url == '/' %} home{% endif %}">
+<body>
+    <div class="container-fluid">
 
-    {% include sidebar.html %}
+        {%- include header.html -%}
 
-    <main class="container">
-      {{ content }}
-    </main>
+        <div class="col-lg-12">
+          
+            {{ content }}
 
-    {% include custom-foot.html %}
-  </body>
+        </div>
+
+        {%- include footer.html -%}
+
+    </div>
+</body>
+
+<div hidden id="snipcart" data-api-key="Y2I1NTAyNWYtMTNkMy00ODg0LWE4NDItNTZhYzUxNzJkZTI5NjM3MDI4NTUzNzYyMjQ4NzU0"></div>
+<script src="https://cdn.snipcart.com/themes/v3.0.0-beta.3/default/snipcart.js" defer></script>
 </html>
