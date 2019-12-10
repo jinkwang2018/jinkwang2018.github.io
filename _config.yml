@@ -34,7 +34,7 @@ timezone: "KR" # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zone
 ## => Author and Social
 ##############################
 author:
-  type      : # "person" (default), "organization"
+  type      : organization # "person" (default), "organization"
   name      : JKKANG
   url       :
   avatar    : # path or url of avatar image (square)
@@ -49,7 +49,7 @@ author:
   zhihu     : # "user_name" the last part of your profile url, e.g. https://www.zhihu.com/people/user_name
   douban    : # "user_name" the last part of your profile url, e.g. https://www.douban.com/people/user_name
   linkedin  : # "user_name" the last part of your profile url, e.g. https://www.linkedin.com/in/user_name
-  github    : "jinkwang2018" # "user_name" the last part of your profile url, e.g. https://github.com/user_name
+  github    : jinkwang2018/jinkwang2018.github.io # "user_name" the last part of your profile url, e.g. https://github.com/user_name
   npm       : # "user_name" the last part of your profile url, e.g. https://www.npmjs.com/~user_name
 
 
@@ -74,7 +74,7 @@ paths:
 excerpt_separator: <!--more-->
 
 ## license
-license: CC-BY-NC-4.0 # "CC-BY-4.0", "CC-BY-SA-4.0", "CC-BY-NC-4.0", "CC-BY-ND-4.0"
+license: CC-BY-4.0 # "CC-BY-4.0", "CC-BY-SA-4.0", "CC-BY-NC-4.0", "CC-BY-ND-4.0"
 
 ## TOC
 toc:
@@ -84,14 +84,14 @@ toc:
 ## => Markdown Enhancements
 ##############################
 ## Mathjax
-mathjax: # false (default), true
-mathjax_autoNumber: # false (default), true
+mathjax: true # false (default), true
+mathjax_autoNumber: true # false (default), true
 
 ## Mermaid
-mermaid: # false (default), true
+mermaid: true # false (default), true
 
 ## Chart
-chart: # false (default), true
+chart: true # false (default), true
 
 
 ## => Paginate
@@ -129,10 +129,10 @@ comments:
   gitalk:
     clientID    : d13fc2bf1e21c2d49465 # GitHub Application Client ID
     clientSecret: 23d60dce26cc36cc44c8b7e53b4ba9b9571f4d24 # GitHub Application Client Secret
-    repository  : jinkwang2018.github.io # GitHub repo
+    repository  : gitalk.blog # GitHub repo
     owner       : jinkwang2018 # GitHub repo owner
-    admin: jinkwang2018 # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
-      # - your GitHub Id
+    admin:  # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
+       - jinkwang2018
 
   ## Valine
   # please refer to https://valine.js.org/en/ for more info.
@@ -195,12 +195,14 @@ exclude:
   - jekyll-text-theme.gemspec
   - package-lock.json
   - package.json
-  - /docs
+  # - /docs
   - /node_modules
-  - /screenshots
-  - /test
+  # - /screenshots
+  # - /test
   - /vendor
-
+  - /_posts
+  - /index.html
+  
 defaults:
   - scope:
       path: ""
