@@ -200,9 +200,7 @@ exclude:
   # - /screenshots
   # - /test
   - /vendor
-  - /_posts
-  - /index.html
-  
+
 defaults:
   - scope:
       path: ""
