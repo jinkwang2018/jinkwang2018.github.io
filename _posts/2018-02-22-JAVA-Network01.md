@@ -1,6 +1,7 @@
 ---
 title:  "JAVA-Network-URLConnection"
 tags: Java
+key: post-java-22
 ---
 # [URLConnection]
 

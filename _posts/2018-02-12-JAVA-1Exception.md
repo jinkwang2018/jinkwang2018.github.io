@@ -1,6 +1,7 @@
 ---
 title:  "JAVA-Exception"
 tags: Java
+key: post-java-07
 ---
 # Exception 처리하기
 ##### 1. 에러(Error): 네트워크 장애, 메모리, 하드웨어

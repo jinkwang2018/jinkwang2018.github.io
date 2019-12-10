@@ -1,6 +1,7 @@
 ---
 title:  "JAVA-Network-EchoChat"
 tags: Java
+key: post-java-24
 ---
 
 # [EchoChat Client]

@@ -1,6 +1,7 @@
 ---
 title:  "JAVA-Network-TCP"
 tags: Java
+key: post-java-23
 ---
 # [TCP client]
 ~~~java

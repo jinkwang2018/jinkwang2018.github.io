@@ -1,6 +1,7 @@
 ---
 title:  "JAVA-Network-Chat"
 tags: Java
+key: post-java-25
 ---
 # [Chat Client]
 ~~~java

@@ -1,6 +1,7 @@
 ---
 title:  "JAVA-Array"
 tags: Java
+key: post-java-04
 ---
 # Array
 > 배열(Array)는 객체다

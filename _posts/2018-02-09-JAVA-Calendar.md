@@ -1,6 +1,7 @@
 ---
 title:  "JAVA-Calendar"
 tags: Java
+key: post-java-06
 ---
 # Calendar
 

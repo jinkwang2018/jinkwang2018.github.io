@@ -1,6 +1,7 @@
 ---
 title:  "JAVA-Collection-Example"
 tags: Java
+key: post-java-15
 ---
 # EX) 시나리오
 #### 은행은 계좌를 관리한다.

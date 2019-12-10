@@ -1,6 +1,7 @@
 ---
 title:  "JAVA-Collection-Vector"
 tags: Java
+key: post-java-08
 ---
 
 # Collection FrameWork

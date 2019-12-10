@@ -1,6 +1,7 @@
 ---
 title:  "JAVA-Collection-Map"
 tags: Java
+key: post-java-14
 ---
 # [Map]
 #### Map 인터페이스 구현한 클래스

@@ -1,6 +1,7 @@
 ---
 title:  "JAVA-Collection-Generic"
 tags: Java
+key: post-java-11
 ---
 # [Generic]
 #### JDK1.5 부터 지원

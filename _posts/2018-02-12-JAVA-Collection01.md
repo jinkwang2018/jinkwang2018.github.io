@@ -1,6 +1,7 @@
 ---
 title:  "JAVA-Collection-ArrayList"
 tags: Java
+key: post-java-09
 ---
 # ArrayList
 ~~~java

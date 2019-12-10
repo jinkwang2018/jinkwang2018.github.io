@@ -1,6 +1,7 @@
 ---
 title:  "JAVA-Collection-Iterater"
 tags: Java
+key: post-java-12
 ---
 # [Iterater]
 ### 나열된 자원에 대해 순차적으로 접근해서 값을 리턴하는 표준 정의

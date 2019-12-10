@@ -1,6 +1,7 @@
 ---
 title:  "JAVA-Network-MultiChat"
 tags: Java
+key: post-java-26
 ---
 # [MultiChat Client]
 ~~~java

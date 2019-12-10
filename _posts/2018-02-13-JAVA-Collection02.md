@@ -1,6 +1,7 @@
 ---
 title:  "JAVA-Collection-Stack"
 tags: Java
+key: post-java-10
 ---
 # [stack]
 ~~~java
