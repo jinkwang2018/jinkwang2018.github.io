@@ -8,7 +8,7 @@ key: post-apache-php
 2. apache를 설치한다.
 3. PHP를 설치한다.
 
-### 압축파일 다운로드
+# 압축파일 다운로드
 
 https://www.apachelounge.com/download/ -> 아파치 다운로드 링크
 https://windows.php.net/download/      -> PHP 다운로드 링크(Thread Safe 사용을 권장합니다.)
@@ -17,12 +17,12 @@ zip파일 다운로드 한 뒤 폴더를 정리하여 압축을 풀어줍니다.
 ![folder](https://drive.google.com/uc?id=1y-8CRZBs1WykZmvECSApvZ_6eN999qsl)
 경로는 상관이 없지만 인지하고 있어야 이 후 설정에서 사용할 수 있습니다.
 
-### apache 설치하기
+# apache 설치하기
 /conf/httpd.conf을 열어서
 ServerRoot, Listen, DocumentRoot 의 값을 현재폴더 경로에 맞게 변경합니다.
 ![folder](https://drive.google.com/uc?id=1EupD_UpqF_MObawSjplvCaUYKv3dyMbG)
 
-```linux
+```bash
 ...
 #
 # ServerRoot: The top of the directory tree under which the server's
@@ -64,7 +64,7 @@ DocumentRoot "${SRVROOT}/htdocs"
 ```
 
 마지막 부분에 아래의 내용을 추가로 넣어줍니다.
-```linux
+```bash
 PHPIniDir "C:/apm/php7"
 LoadModule php7_module "c:/apm/php7/php7apache2_4.dll"
 AddType application/x-httpd-php .html .php
@@ -73,7 +73,7 @@ AddHandler application/x-httpd-php .php
 
 이후 명령프롬프트를 관리자모드로 실행한 뒤에 apache폴더 안의 bin폴더까지 이동해줍니다. ex) cd c:/apm/Apache24/bin
 설치 명령어를 입력해 줍니다.
-```linux
+```bash
 httpd.exe -k install -> 설치
 httpd.exe -k ununstall -> 삭제
 ```
@@ -82,18 +82,18 @@ httpd.exe -k ununstall -> 삭제
 ![folder](https://drive.google.com/uc?id=1O9bmuQAbvOmA9Z3ig1FxE76GheqT6GLB)
 ![folder](https://drive.google.com/uc?id=1mX29h9eAp79IHEaKyADSuDr-6Z4-dupQ)
 
-```linux
+```bash
 httpd -k start -> 실행
 httpd -k stop -> 중지
 ```
 
-#### apache 설치 중 ERROR 
+# apache 설치 중 ERROR 
 1. (OS 10013)액세스 권한에 의해 숨겨진 소켓에 액세스를 시도했습니다.  : AH00072: make_sock: could not bind to address [::]:8080
    -> 서비스 들어가서, world wide web publishing service 를 중단 후 삭제한 뒤 다시 설치합니다.
 ![folder](https://drive.google.com/uc?id=1QJF8JG2GMe_7Q5EMtp3PfNbrC2pnx7TA)
 2. AH00558 : Could not reliable determine the server’s fully qualified domain name   
    -> httpd.conf의 ServerName의 주석 해제 후 hostname을 입력 로컬에서만 사용한다면 localhost로 변경합니다.
-```linux
+```bash
 #
 # ServerName gives the name and port that the server uses to identify itself.
 # This can often be determined automatically, but we recommend you specify
@@ -108,7 +108,7 @@ ServerName localhost:80
 
 
 php.ini-production파일을 아래와 같이 변경합니다.
-```linux
+```bash
 ; Directory in which the loadable extensions (modules) reside.
 ; http://php.net/extension-dir
 ;extension_dir = "c:\apm\php7\ext"
@@ -118,7 +118,7 @@ php.ini-production파일을 아래와 같이 변경합니다.
 # 확인하기
 apache폴더의 htdocs폴더에 아래의 내용으로 phpinfo.php파일을 생성한 뒤에
 브라우저에서 localhost/phpinfo.php를 입력하였을 때 php페이지가 나오면 설치가 완료된 것입니다.
-```linux
+```bash
 <?php 
 phpinfo(); 
 ?>
